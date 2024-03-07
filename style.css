@@ -1,0 +1,113 @@
+.container {
+  background-color: #171b04;
+  display: flex;
+  width: 100%;
+  padding-bottom: 50px;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 700;
+  margin: 0 auto;
+  height: 2059px;
+}
+.header-banner {
+  background-color: #233627;
+  align-self: stretch;
+  min-height: 60px;
+  width: 100%;
+  height: 120px;
+}
+.main-content {
+  margin-right: 100px;
+  letter-spacing: 4.4px;
+  justify-content: space-between;
+  display: flex;
+  gap: 220px;
+  margin-top: 25px;
+}
+.login-title {
+  color: #595858;
+  font-family: Open Sans, sans-serif;
+  font-size: 64px;
+  margin-left: 35px;
+}
+.sign-in-wrapper {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+.sign-in-title {
+  font-family: Open Sans, sans-serif;
+  font-size: 64px;
+  margin-left: 65px;
+  margin-top: 50px;
+}
+
+.profile-section {
+  border-radius: 25px;
+  background-color: #0f491b;
+  display: flex;
+  margin-top: 120px;
+  width: 700px;
+  flex-direction: column;
+  padding: 50px 11px;
+  margin-top: 400px;
+  height: 800px;
+}
+.profile-info {
+  background-color: 093211;
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-between;
+  gap: 14px;
+  height: 170px;
+  width: 600px;
+  margin-left: 50px;
+}
+
+.password-section{
+  background-color: 093211;
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-between;
+  gap: 14px;
+  height: 170px;
+  width: 600px;
+  margin-left: 50px;
+}
+
+.email-section{
+  background-color: 093211;
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-between;
+  gap: 14px;
+  height: 170px;
+  width: 600px;
+  margin-left: 50px;
+}
+
+.label-text {
+  color: #5E5E5E;
+  letter-spacing: 1.5px;
+  font: 30px Open Sans, sans-serif
+}
+.value-text {
+  color: #fff;
+  letter-spacing: 1.5px;
+  margin-top: 22px;
+  font: 15px 'Open Sans', sans-serif;
+}
+.sign-in-button {
+  border-radius: 50px;
+  background-color: rgba(212, 139, 29, 1);
+  align-self: center;
+  justify-content: center;
+  color: #020202;
+  letter-spacing: 2px;
+  margin: 39px 0 8px;
+  padding: 8px 35px;
+  font: 40px Open Sans, sans-serif;
+  height: 100px;
+  width: 250px;
+  font: 38px 'Open Sans', sans-serif;
+}
